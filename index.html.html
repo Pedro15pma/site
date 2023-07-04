@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hamburgueria PMA</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <style>
+    /* Estilos personalizados */
+    body {
+      background-color: #f8f9fa;
+      background-image: url(back.avif);
+      color: white; /* Fontes brancas */
+      font-family: Arial, sans-serif; /* Fonte padrão */
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar {
+      background-color: #424242;
+      
+    }
+
+    .jumbotron {
+      background-color: #2e1d1d;
+      padding: 60px;
+      color: #fff;
+      
+    }
+
+    .menu-item {
+      margin-bottom: 30px;
+      background-color: #f8f9fa;
+      padding: 20px;
+      border-radius: 10px;
+      background-image: url(MADERA.jpg);
+    }
+
+    footer {
+      background-color: #343a40;
+      color: #fff;
+      padding: 20px;
+      
+    }
+
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <a class="navbar-brand" href="#"><img src="logo3.png" alt="" width="38 " height="38"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Início</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#menu">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contato">Contato</a>
+        </li>
+       
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="jumbotron">
+    <div class="container">
+      <h1 class="display-4">Bem-vindo à Hamburgueria PMA!</h1>
+      <p class="lead">Experimente nossos deliciosos hambúrgueres artesanais!
+        
+      </p>
+    </div>
+  </header>
+
+  <section id="menu" class="container">
+    <h2 class="text-center mb-5">Nosso Menu</h2>
+    <div class="row">
+      <div class="col-lg-4 col-md-6 menu-item">
+        <img src="crispy.png" width="300" height="300" alt="Hambúrguer 1" class="img-fluid hambúrguer">
+        <h4>Chicken burguer</h4>
+        <p>Um delicioso chicken burguer com 100g de frango, maionese e salada.</p>
+        <p class="text-primary">R$20,99</p>
+        <a href="pagamenot/pagamento2.html" class="btn btn-primary">Comprar</a>
+      </div>
+      <div class="col-lg-4 col-md-6 menu-item">
+        <img src="Shack-Burger-PNG.png" width="300" height="300" alt="Hambúrguer 2" class="img-fluid hambúrguer">
+        <h4>Cheddar burguer</h4>
+        <p>Hamburguer com blend duplo de carnes de 120g, dobro cheddar e salada.
+        <p class="text-primary">R$28,99</p>
+        <a href="pagamenot/pagamento2.html" class="btn btn-primary">Comprar</a>
+      </div>
+      <div class="col-lg-4 col-md-6 menu-item">
+        <img src="burg3.png " width="300" height="300" alt="Hambúrguer 3" class="img-fluid hambúrguer">
+        <h4>Classic burguer</h4>
+        <p>A versão clássica com blend de 120g, cheddar, bacon e salada.</p>
+        <p class="text-primary">R$22,99</p>
+        <a href="pagamenot/pagamento2.html" class="btn btn-primary">Comprar</a>
+      </div>
+      <div class="col-lg-4 col-md-6 menu-item">
+        <img src="burg4.png" width="300" height="300" alt="Hambúrguer 4" class="img-fluid hambúrguer">
+        <h4>Ricota burguer</h4>
+        <p>Hamburguer com  creme de ricota ,blend de 120g, cheddar, bacon e salada.</p>
+        <p class="text-primary">R$25,99</p>
+        <a href="pagamenot/pagamento2.html" class="btn btn-primary">Comprar</a>
+      </div>
+      <div class="col-lg-4 col-md-6 menu-item">
+        <img src="burg5.png" width="300" height="300" alt="Hambúrguer 5" class="img-fluid hambúrguer">
+        <h4>Guaca burguer</h4>
+        <p>Hamburguer com molho de guaca mole , blend de 120g, cheddar, bacon e salada.</p>
+        <p class="text-primary">R$25,99</p>
+        <a href="pagamenot/pagamento2.html" class="btn btn-primary">Comprar</a>
+      </div>
+      <div class="col-lg-4 col-md-6 menu-item">
+        <img src="burg6.png" width="300" height="300" alt="Hambúrguer 6" class="img-fluid hambúrguer">
+        <h4>Caramelo burguer</h4>
+        <p>HAmburguer com blend duplo  de 120g, cebola caramelizada , dobro cheddar, bacon e picles.</p>
+        <p class="text-primary">30,99</p>
+        <a href="pagamenot/pagamento2.html" class="btn btn-primary">Comprar</a>
+      </div>
+   
+   
+   
+   
+    </div>
+  </section>
+
+ 
+
+  <section id="contato" class="container mt-5">
+    <h2 class="text-center mb-5">Entre em Contato</h2>
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <form>
+          <div class="form-group">
+            <label for="nome">Nome</label>
+            <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Digite seu email">
+          </div>
+          <div class="form-group">
+            <label for="mensagem">Mensagem</label>
+            <textarea class="form-control" id="mensagem" rows="5" placeholder="Digite sua mensagem"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white text-center py-4 mt-5">
+    <p>&copy; 2023 Hamburgueria PMA. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
